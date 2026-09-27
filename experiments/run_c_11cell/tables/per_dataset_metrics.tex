@@ -1,0 +1,11 @@
+\begin{tabular}{llrrrrr}
+\toprule
+Dataset & Model & n_test & RMSE & MAE & R2 & MAPE \\
+\midrule
+NASA & LSTM & 83 & 5.135 & 4.671 & 0.485 & 82.958 \\
+NASA & GRU & 83 & 3.365 & 2.660 & 0.779 & 49.167 \\
+NASA & XGBoost & 83 & 11.915 & 8.027 & -1.771 & 236.170 \\
+NASA & LightGBM & 83 & 11.653 & 8.217 & -1.651 & 231.706 \\
+NASA & Ensemble & 83 & 11.915 & 8.027 & -1.771 & 236.170 \\
+\bottomrule
+\end{tabular}

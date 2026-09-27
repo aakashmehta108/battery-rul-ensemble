@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-09-25T14:19:41.319971",
+  "data_mode": "NASA_MAT",
+  "config": {
+    "RANDOM_SEED": 42,
+    "LOOKBACK": 50,
+    "TRAIN_FRAC": 0.7,
+    "VAL_FRAC": 0.15,
+    "BATCH_SIZE": 32,
+    "EPOCHS": 30,
+    "PATIENCE": 8,
+    "LSTM_UNITS": 64,
+    "GRU_UNITS": 64,
+    "DROPOUT": 0.2,
+    "LEARNING_RATE": 0.001,
+    "FT_LEARNING_RATE": 0.0001,
+    "FT_EPOCHS": 10,
+    "MC_ITERATIONS": 100,
+    "EOL_RETENTION": 0.8,
+    "TEST_CELLS": [
+      "B0018"
+    ],
+    "N_SYNTH_CELLS": 12,
+    "N_SYNTH_CYCLES": 170
+  },
+  "ensemble_weights": {
+    "LSTM": 0.0,
+    "GRU": 0.0,
+    "XGBoost": 1.0,
+    "LightGBM": 0.0
+  },
+  "n_cells": {
+    "train": 6,
+    "val": 4,
+    "test": 1
+  },
+  "n_samples": {
+    "train": 583,
+    "val": 352,
+    "test": 83
+  },
+  "leakage_controls": [
+    "splits by cell_id (no cell in two splits)",
+    "StandardScaler fit on TRAIN only",
+    "features use past/current cycle only (causal rolling stats)",
+    "sliding windows contain no future cycles"
+  ]
+}
