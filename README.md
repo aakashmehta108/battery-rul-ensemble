@@ -1,6 +1,8 @@
 # Heterogeneous Ensemble Deep Learning with Uncertainty Quantification for Lithium-Ion Battery RUL Prediction
 
-Reproducibility repository for the research paper *"Heterogeneous Ensemble Learning with Uncertainty Quantification for Lithium-Ion Battery Remaining-Useful-Life Prediction under Operating-Condition Shift"* (manuscript in preparation, target: Journal of Energy Storage).
+Reproducibility repository for the research paper *"Heterogeneous Ensemble Learning with Uncertainty Quantification for Lithium-Ion Battery Remaining-Useful-Life Prediction under Operating-Condition Shift"* (conference version prepared for SPERT 2027, IEEE; full journal version in preparation for the Journal of Energy Storage).
+
+![Graphical abstract](graphical_abstract.png)
 
 ## What this repo contains
 
@@ -51,7 +53,7 @@ No directly comparable study was identified in the reviewed literature that asks
 
 ## Status
 
-Manuscript draft v2.8 (JoES-formatted) is in preparation; nothing here has been submitted anywhere. All experiment tracks in this repo are complete.
+Manuscript v2.14. A 6-page IEEE conference version has been prepared for SPERT 2027 (SVNIT Surat; submission deadline 15 December 2026). The full journal manuscript is in preparation for the Journal of Energy Storage, with submission planned for February 2027. All experiment tracks in this repo are complete.
 
 ## Contact
 
